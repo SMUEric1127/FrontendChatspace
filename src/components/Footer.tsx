@@ -1,15 +1,15 @@
 import React from "react";
 
-const igSite = "https://www.instagram.com/_.wiinie._/"
-const fbSite = "https://www.facebook.com/thy.nguyenngoc.336"
+// const igSite = "https://www.instagram.com/_.wiinie._/"
+// const fbSite = "https://www.facebook.com/thy.nguyenngoc.336"
 
 // const igSite = "https://www.instagram.com/_q.uynz/"
-// const fbSite = "https://www.facebook.com/profile.php?id=100070464692618"
+const fbSite = "http://facebook.com/profile.php?=73322363"
 function Footer() {
   return (
     <div className="text-center text-slate-500 py-5 opacity-70">
       <div className="flex items-center justify-center pb-5">
-        <a href={igSite} className="text-blue hover:rotate-45">
+        {/* <a href={igSite} className="text-blue hover:rotate-45">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-6 h-6"
@@ -25,7 +25,7 @@ function Footer() {
             <circle cx="12" cy="12" r="3" />
             <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
           </svg>
-        </a>
+        </a> */}
         <a href={fbSite} className="ml-5 text-blue hover:rotate-45">
           <svg
             xmlns="http://www.w3.org/2000/svg"
