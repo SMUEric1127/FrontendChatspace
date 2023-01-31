@@ -1,10 +1,10 @@
 import React from "react";
 
-// const igSite = "https://www.instagram.com/_.wiinie._/"
-// const fbSite = "https://www.facebook.com/thy.nguyenngoc.336"
+const igSite = "https://www.instagram.com/_.wiinie._/"
+const fbSite = "https://www.facebook.com/thy.nguyenngoc.336"
 
-const igSite = "https://www.instagram.com/_q.uynz/"
-const fbSite = "https://www.facebook.com/profile.php?id=100070464692618"
+// const igSite = "https://www.instagram.com/_q.uynz/"
+// const fbSite = "https://www.facebook.com/profile.php?id=100070464692618"
 function Footer() {
   return (
     <div className="text-center text-slate-500 py-5 opacity-70">
