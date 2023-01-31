@@ -6,7 +6,6 @@ function Header() {
     <header className="text-center py-5 md:py-14">
       <h1 className="text-xl md:text-4xl dark:text-white">
         Đợi vài ngày nữa rồi launch nha <span className="font-extrabold">Quyên!</span>
-        Kì quá ta huhu!
       </h1>
       <p className="text-sm md:text-lg py-5 text-gray-500 dark:text-white">
         Subscribe tui nha!
