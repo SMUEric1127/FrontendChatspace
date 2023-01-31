@@ -38,7 +38,7 @@ USER node
 
 FROM nginx:alpine As server
 
-COPY  --from=build /usr/src/app/dist ./dist
+COPY  --from=build /usr/src/app/dist /usr/share/nginx/html/
 COPY default.conf /etc/nginx/conf.d/
 
 EXPOSE 3001
