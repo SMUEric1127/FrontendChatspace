@@ -26,8 +26,8 @@ const TraiTimTanVo = () => {
             chiuText = "Vay moi phai chu :)"
             left = kc.style.left
             bottom = kc.style.bottom
-            kc.style.left = `${Math.random()*100}%`;
-            kc.style.bottom = `${Math.random()*100}%`;
+            kc.style.left = `${Math.random()*90}%`;
+            kc.style.bottom = `${Math.random()*90}%`;
 
 
             c.style.left = left
