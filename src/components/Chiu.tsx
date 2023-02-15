@@ -16,7 +16,7 @@ const Chiu = () => {
     const [doneTyping, setTyping] = useState(false)
 
     const text = "Nhay qua a =)) Phai chiu thoi"
-    var chiuText = "Vay moi duoc chu"
+    var chiuText = "Vay moi duoc chu hihi"
     var left, bottom;
 
     const khongchiu = () => {
@@ -34,7 +34,7 @@ const Chiu = () => {
     const chiu = () => {
         alert(chiuText);
 
-        navigate('chiu')
+        navigate('msg')
     }
 
     var agree = <Button id="chiu" style={{position: "absolute", left: "60%", bottom: "30%", backgroundColor:"white", color: "black"}} variant="contained" onClick={chiu}>Chiu</Button>
