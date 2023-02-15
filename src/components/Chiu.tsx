@@ -26,8 +26,9 @@ const Chiu = () => {
             alert(text)
             kc.style.visibility = 'hidden';
             c.style.left = "0%"
-            c.style.width = "100%"
-            c.style.height = "100%"
+            c.style.bottom = "0%"
+            c.style.width = "100vw"
+            c.style.height = "100vh"
         }
     }
 
