@@ -57,7 +57,7 @@ const TinNhan = () => {
                                 </Typing>
                                 <br/>
                                 <br />
-                                {typing && ( <iframe src="../../../TraiTim.html"/> )}
+                                {typing && ( <iframe src="../../../TraitimEnd.html"/> )}
                                 
                             </>
 
