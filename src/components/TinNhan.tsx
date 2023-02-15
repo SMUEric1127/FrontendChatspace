@@ -51,9 +51,6 @@ const TinNhan = () => {
                             <>
                                 <br />
                                 <Typing onFinishedTyping={() => setType(true)}>
-                                    <span> Sorry tre qua lan dau lam cai nay {"=))"}</span>
-                                    <span>    </span>
-                                    <Typing.Backspace count={4} />
                                     <br/>
                                     <span> Trao cho em trai tim lai ne! </span>
                                     <span>  </span>
