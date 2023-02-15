@@ -10,7 +10,7 @@ import Typing from "react-typing-animation";
 
 const TinNhan = () => {
     const [clicked, setClicked] = useState(true)
-    const text = ["Chuc", "Em", "Valentine", "Vui", "Ve", "Nha", "Vo baaaaaaaa =)))"]
+    const text = ["Chuc", "Em", "Valentine", "Vui", "Ve", "Nha", "Vk =)))"]
     const [disc, setDisc] = useState("")
     const [ci, setCi] = useState(0)
     const [typing, setType] = useState(false)
@@ -26,7 +26,10 @@ const TinNhan = () => {
         if (ci === text.length - 2) {
             console.log("true")
             document.getElementById("tieptuc")!.style.visibility = "hidden"
-            document.getElementById("tinnhanbox")!.style.height = "50vh"
+            document.getElementById("tinnhanbox")!.style.height = "100vh"
+            document.getElementById("tinnhanbox")!.style.width = "100vw"
+            document.getElementById("tinnhanbox")!.style.top = "0"
+            document.getElementById("tinnhanbox")!.style.left = "0"
         }
     }
 
