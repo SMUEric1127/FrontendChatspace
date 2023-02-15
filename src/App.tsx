@@ -1,16 +1,19 @@
-import Container from "./components/Container";
-import Navbar from "./components/Navbar";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Chiu from "./components/Chiu";
+import TraiTim from "./components/Traitim";
+import TraiTimTanVo from "./components/TraitimTanvo";
 
-function App() {
+const App = () => {
   return (
-    <Container>
-      <Navbar />
-      <Header />
-      <Footer />
-    </Container>
-  );
+  <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<TraiTim />}/>  
+        <Route path="/traitimtanvo" element={<TraiTimTanVo />}/>  
+        <Route path="/traitimtanvo/chiu" element={<Chiu />}/>  
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
